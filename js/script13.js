@@ -14,5 +14,5 @@ function entraMouse() {
 
 
 function saleMouse() {
-  $(this).css("background-color", " ");
+  $(this).css("background-color", "#fff");
 }
