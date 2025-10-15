@@ -1,0 +1,18 @@
+let x = $(document);
+x.ready(inicializarEventos);
+
+
+function inicializarEventos() {
+  let x = $("td");
+  x.hover(entraMouse, saleMouse);
+}
+
+
+function entraMouse() {
+  $(this).css("background-color", "deeppink");
+}
+
+
+function saleMouse() {
+  $(this).css("background-color", " ");
+}
