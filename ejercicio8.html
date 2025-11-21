@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Dynamic Hyperlink with jQuery</title>
+    <style>
+        body { font-family: sans-serif; }
+        .buttons { margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+    <h2>Configuracion de Hyperlink</h2>
+    <a id="link" href="" target="_blank">(no destination)</a>
+    <br>
+    <small>Current href: <span id="status">(empty)</span></small>
+
+    <div class="buttons">
+        <button data-url="https://www.google.com" data-text="Go to Google">Google</button>
+        <button data-url="https://www.wikipedia.org" data-text="Go to Wikipedia">Wikipedia</button>
+        <button data-url="https://github.com" data-text="Go to GitHub">GitHub</button>
+        <button id="remove">Remove href</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/script8.js"></script>
+</body>
+</html>
